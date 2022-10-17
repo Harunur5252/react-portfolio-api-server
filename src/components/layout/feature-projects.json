@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_feature_projects",
+  "info": {
+    "displayName": "FeatureProjects",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tag_one": {
+      "type": "string"
+    },
+    "tag_two": {
+      "type": "string"
+    },
+    "TagsFeature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.feature-tags"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_feature_menus",
+  "info": {
+    "displayName": "FeatureMenus",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  }
+}
