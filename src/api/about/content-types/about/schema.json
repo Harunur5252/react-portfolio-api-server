@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "short_details": {
+      "type": "string"
+    },
+    "broad_details": {
+      "type": "richtext"
+    },
+    "video_title": {
+      "type": "string"
+    },
+    "video_link": {
+      "type": "string"
+    }
+  }
+}

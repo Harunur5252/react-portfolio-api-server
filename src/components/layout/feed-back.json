@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_layout_feed_backs",
+  "info": {
+    "displayName": "FeedBack",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "rating": {
+      "type": "decimal"
+    }
+  }
+}

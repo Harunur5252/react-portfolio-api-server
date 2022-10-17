@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_layout_feature_homes",
+  "info": {
+    "displayName": "featureHome",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "profession": {
+      "type": "string"
+    }
+  }
+}

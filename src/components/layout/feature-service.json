@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_feature_services",
+  "info": {
+    "displayName": "FeatureService",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "serviceName": {
+      "type": "string"
+    },
+    "serviceDescription": {
+      "type": "text"
+    },
+    "serviceIcon": {
+      "type": "string"
+    },
+    "serviceNumber": {
+      "type": "string"
+    }
+  }
+}

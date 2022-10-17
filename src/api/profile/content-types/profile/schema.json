@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "profilePicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "facebookAccount": {
+      "type": "string",
+      "required": true
+    },
+    "twitterAccount": {
+      "type": "string",
+      "required": true
+    },
+    "googleAccount": {
+      "type": "string",
+      "required": true
+    },
+    "instagramAccount": {
+      "type": "string",
+      "required": true
+    },
+    "linkdinAccount": {
+      "type": "string",
+      "required": true
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "profile"
+    },
+    "phone": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "website": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "cvLink": {
+      "type": "string"
+    },
+    "bloodGroup": {
+      "type": "string"
+    },
+    "dateOfBirth": {
+      "type": "date"
+    }
+  }
+}

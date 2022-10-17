@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_feature_skills",
+  "info": {
+    "displayName": "featureSkill",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "percent": {
+      "type": "decimal"
+    }
+  }
+}

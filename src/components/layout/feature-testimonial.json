@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_feature_testimonials",
+  "info": {
+    "displayName": "FeatureTestimonial",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "short_des": {
+      "type": "string"
+    },
+    "FeatureFeedback": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.feed-back"
+    }
+  }
+}
