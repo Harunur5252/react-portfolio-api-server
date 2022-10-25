@@ -33,6 +33,12 @@
       "relation": "manyToOne",
       "target": "api::blog-post.blog-post",
       "inversedBy": "comments"
+    },
+    "replay_comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::replay-comment.replay-comment",
+      "mappedBy": "comment"
     }
   }
 }

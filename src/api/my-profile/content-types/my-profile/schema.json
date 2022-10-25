@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "my_profiles",
+  "info": {
+    "singularName": "my-profile",
+    "pluralName": "my-profiles",
+    "displayName": "MyProfile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "profilePicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "dateOfBirth": {
+      "type": "date"
+    },
+    "email": {
+      "type": "email"
+    },
+    "bloodGroup": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "cvLink": {
+      "type": "string"
+    },
+    "facebookAccount": {
+      "type": "string"
+    },
+    "twitterAccount": {
+      "type": "string"
+    },
+    "googlePlusAccount": {
+      "type": "string"
+    },
+    "instagramAccount": {
+      "type": "string"
+    },
+    "LinkedInAccount": {
+      "type": "string"
+    }
+  }
+}

@@ -36,7 +36,7 @@
       "type": "string",
       "required": true
     },
-    "googleAccount": {
+    "googlePlusAccount": {
       "type": "string",
       "required": true
     },
@@ -44,7 +44,7 @@
       "type": "string",
       "required": true
     },
-    "linkdinAccount": {
+    "linkedinAccount": {
       "type": "string",
       "required": true
     },
@@ -53,31 +53,6 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "mappedBy": "profile"
-    },
-    "phone": {
-      "type": "integer",
-      "required": true,
-      "unique": false
-    },
-    "address": {
-      "type": "string",
-      "required": true
-    },
-    "website": {
-      "type": "string",
-      "required": true
-    },
-    "title": {
-      "type": "string"
-    },
-    "cvLink": {
-      "type": "string"
-    },
-    "bloodGroup": {
-      "type": "string"
-    },
-    "dateOfBirth": {
-      "type": "date"
     }
   }
 }

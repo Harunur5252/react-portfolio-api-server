@@ -63,6 +63,12 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "blog_posts"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "blog_posts"
     }
   }
 }

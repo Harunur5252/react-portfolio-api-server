@@ -16,6 +16,9 @@
       "type": "component",
       "repeatable": true,
       "component": "layout.feature-home"
+    },
+    "short_des": {
+      "type": "string"
     }
   }
 }
