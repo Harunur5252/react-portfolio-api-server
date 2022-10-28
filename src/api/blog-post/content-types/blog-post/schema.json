@@ -69,6 +69,10 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "inversedBy": "blog_posts"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

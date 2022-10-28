@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tag",
     "pluralName": "tags",
-    "displayName": "Tag"
+    "displayName": "Tag",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,11 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::blog-post.blog-post",
-      "inversedBy": "tags"
+      "mappedBy": "tags"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
