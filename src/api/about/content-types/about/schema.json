@@ -22,11 +22,7 @@
       "type": "string"
     },
     "video_link": {
-      "allowedTypes": [
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "string"
     }
   }
 }
