@@ -71,8 +71,7 @@
       "inversedBy": "blog_posts"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "title"
+      "type": "string"
     }
   }
 }
