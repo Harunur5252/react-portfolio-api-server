@@ -22,7 +22,8 @@
       "mappedBy": "tags"
     },
     "slug": {
-      "type": "string"
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
