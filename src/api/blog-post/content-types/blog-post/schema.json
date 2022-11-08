@@ -15,7 +15,7 @@
     "blog_image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
@@ -25,14 +25,12 @@
     },
     "title": {
       "type": "string",
-      "required": true,
-      "unique": true,
-      "maxLength": 200,
-      "minLength": 10
+      "required": false,
+      "unique": false
     },
     "blog_date": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "author": {
       "type": "relation",
@@ -42,9 +40,7 @@
     },
     "description": {
       "type": "richtext",
-      "required": true,
-      "minLength": 100,
-      "maxLength": 50000
+      "required": false
     },
     "likes": {
       "type": "relation",
