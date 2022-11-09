@@ -81,11 +81,11 @@
       "target": "api::comment.comment",
       "mappedBy": "user"
     },
-    "like": {
+    "likes": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::like.like",
-      "inversedBy": "user"
+      "mappedBy": "user"
     },
     "replay_comments": {
       "type": "relation",
